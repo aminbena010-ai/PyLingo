@@ -1,0 +1,247 @@
+PS C:\Users\ADMIN\Desktop\Juegos\GO\PyLingo>
+PS C:\Users\ADMIN\Desktop\Juegos\GO\PyLingo> tree /F
+Listado de rutas de carpetas para el volumen Windows
+El número de serie del volumen es 64C1-D825
+C:.
+│   .gitignore
+│   appflow.config.json
+│   capacitor.config.ts
+│   CHANGELOG.md
+│   eslint.config.js
+│   index.html
+│   package-lock.json
+│   package.json
+│   README.md
+│   tsconfig.app.json
+│   tsconfig.json
+│   tsconfig.node.json
+│   vite.config.ts
+│
+├───android
+│   │   .gitignore
+│   │   build.gradle
+│   │   capacitor.settings.gradle
+│   │   gradle.properties
+│   │   gradlew
+│   │   gradlew.bat
+│   │   settings.gradle
+│   │   variables.gradle
+│   │
+│   ├───.gradle
+│   │   ├───8.14.3
+│   │   │   │   gc.properties
+│   │   │   │
+│   │   │   ├───checksums
+│   │   │   │       checksums.lock
+│   │   │   │
+│   │   │   ├───executionHistory
+│   │   │   │       executionHistory.lock
+│   │   │   │
+│   │   │   ├───expanded
+│   │   │   ├───fileChanges
+│   │   │   │       last-build.bin
+│   │   │   │
+│   │   │   ├───fileHashes
+│   │   │   │       fileHashes.lock
+│   │   │   │
+│   │   │   └───vcsMetadata
+│   │   ├───buildOutputCleanup
+│   │   │       buildOutputCleanup.lock
+│   │   │       cache.properties
+│   │   │
+│   │   └───vcs-1
+│   │           gc.properties
+│   │
+│   ├───app
+│   │   │   .gitignore
+│   │   │   build.gradle
+│   │   │   capacitor.build.gradle
+│   │   │   proguard-rules.pro
+│   │   │
+│   │   ├───build
+│   │   │       .npmkeep
+│   │   │
+│   │   └───src
+│   │       ├───androidTest
+│   │       │   └───java
+│   │       │       └───com
+│   │       │           └───getcapacitor
+│   │       │               └───myapp
+│   │       │                       ExampleInstrumentedTest.java
+│   │       │
+│   │       ├───main
+│   │       │   │   AndroidManifest.xml
+│   │       │   │
+│   │       │   ├───assets
+│   │       │   │   │   capacitor.config.json
+│   │       │   │   │   capacitor.plugins.json
+│   │       │   │   │
+│   │       │   │   └───public
+│   │       │   │       │   cordova.js
+│   │       │   │       │   cordova_plugins.js
+│   │       │   │       │   index.html
+│   │       │   │       │   vite.svg
+│   │       │   │       │
+│   │       │   │       └───assets
+│   │       │   │               index-B27a1qGl.js
+│   │       │   │               index-D2qI7slH.css
+│   │       │   │               logo-CmiqSbp-.png
+│   │       │   │
+│   │       │   ├───java
+│   │       │   │   └───com
+│   │       │   │       └───pylingo
+│   │       │   │           └───app
+│   │       │   │                   MainActivity.java
+│   │       │   │
+│   │       │   └───res
+│   │       │       ├───drawable
+│   │       │       │       ic_launcher_background.xml
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-land-hdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-land-mdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-land-xhdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-land-xxhdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-land-xxxhdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-port-hdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-port-mdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-port-xhdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-port-xxhdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-port-xxxhdpi
+│   │       │       │       splash.png
+│   │       │       │
+│   │       │       ├───drawable-v24
+│   │       │       │       ic_launcher_foreground.xml
+│   │       │       │
+│   │       │       ├───layout
+│   │       │       │       activity_main.xml
+│   │       │       │
+│   │       │       ├───mipmap-anydpi-v26
+│   │       │       │       ic_launcher.xml
+│   │       │       │       ic_launcher_round.xml
+│   │       │       │
+│   │       │       ├───mipmap-hdpi
+│   │       │       │       ic_launcher.png
+│   │       │       │       ic_launcher_foreground.png
+│   │       │       │       ic_launcher_round.png
+│   │       │       │
+│   │       │       ├───mipmap-mdpi
+│   │       │       │       ic_launcher.png
+│   │       │       │       ic_launcher_foreground.png
+│   │       │       │       ic_launcher_round.png
+│   │       │       │
+│   │       │       ├───mipmap-xhdpi
+│   │       │       │       ic_launcher.png
+│   │       │       │       ic_launcher_foreground.png
+│   │       │       │       ic_launcher_round.png
+│   │       │       │
+│   │       │       ├───mipmap-xxhdpi
+│   │       │       │       ic_launcher.png
+│   │       │       │       ic_launcher_foreground.png
+│   │       │       │       ic_launcher_round.png
+│   │       │       │
+│   │       │       ├───mipmap-xxxhdpi
+│   │       │       │       ic_launcher.png
+│   │       │       │       ic_launcher_foreground.png
+│   │       │       │       ic_launcher_round.png
+│   │       │       │
+│   │       │       ├───values
+│   │       │       │       ic_launcher_background.xml
+│   │       │       │       strings.xml
+│   │       │       │       styles.xml
+│   │       │       │
+│   │       │       └───xml
+│   │       │               config.xml
+│   │       │               file_paths.xml
+│   │       │
+│   │       └───test
+│   │           └───java
+│   │               └───com
+│   │                   └───getcapacitor
+│   │                       └───myapp
+│   │                               ExampleUnitTest.java
+│   │
+│   ├───build
+│   │   └───reports
+│   │       └───problems
+│   │               problems-report.html
+│   │
+│   ├───capacitor-cordova-android-plugins
+│   │   │   build.gradle
+│   │   │   cordova.variables.gradle
+│   │   │
+│   │   └───src
+│   │       └───main
+│   │           │   AndroidManifest.xml
+│   │           │
+│   │           ├───java
+│   │           │       .gitkeep
+│   │           │
+│   │           └───res
+│   │                   .gitkeep
+│   │
+│   └───gradle
+│       └───wrapper
+│               gradle-wrapper.jar
+│               gradle-wrapper.properties
+│
+├───public
+│       vite.svg
+│
+└───src
+    │   App.tsx
+    │   main.tsx
+    │
+    ├───assets
+    │   └───images
+    │           logo.png
+    │
+    ├───components
+    │       CodeEditor.tsx
+    │       DesktopShell.tsx
+    │       ErrorBoundary.tsx
+    │       FeedbackBanner.tsx
+    │       Icons.tsx
+    │       LevelMap.tsx
+    │       MobileShell.tsx
+    │       ProgressBar.tsx
+    │
+    ├───config
+    │       release.ts
+    │       storageKeys.ts
+    │
+    ├───data
+    │       levels.ts
+    │
+    ├───hooks
+    │       useGameStatus.ts
+    │       useIsMobile.ts
+    │
+    ├───styles
+    │       index.css
+    │
+    ├───types
+    │       index.ts
+    │
+    └───utils
+            pythonSimulator.ts
+
+PS C:\Users\ADMIN\Desktop\Juegos\GO\PyLingo>
