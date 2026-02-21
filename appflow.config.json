@@ -1,13 +1,17 @@
 {
-  "appId": "75034716",
-  "type": "capacitor",
-  "root": ".",
-  "dependencyInstallCommand": "npm ci",
-  "webBuildCommand": "npm run build",
-  "androidPath": "android",
-  "capacitor": {
-    "appId": "com.pylingo.app",
-    "appName": "PyLingo",
-    "webDir": "dist"
-  }
+  "apps": [
+    {
+      "appId": "75034716",
+      "type": "capacitor",
+      "root": ".",
+      "dependencyInstallCommand": "npm ci",
+      "webBuildCommand": "npm run build",
+      "androidPath": "android",
+      "capacitor": {
+        "appId": "com.pylingo.app",
+        "appName": "PyLingo",
+        "webDir": "dist"
+      }
+    }
+  ]
 }
