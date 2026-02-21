@@ -1,11 +1,9 @@
 {
-  "apps": [
-    {
-      "appId": "75034716",
-      "root": ".",
-      "dependencyInstallCommand": "npm ci",
-      "webBuildCommand": "npm run build",
-      "androidPath": "android"
-    }
-  ]
+  "appId": "75034716",
+  "appName": "PyLingo",
+  "packageName": "com.pylingo.app",
+  "root": ".",
+  "dependencyInstallCommand": "npm ci",
+  "webBuildCommand": "npm run build",
+  "androidPath": "android"
 }
